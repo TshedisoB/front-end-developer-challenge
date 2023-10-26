@@ -1,0 +1,22 @@
+[
+  {
+    "logo": "../images/what-we-do/app-dev-icon.png",
+    "title": "Web development",
+    "description": "We help you define your business goals and technical requirements, and create a strategy to deliver them."
+  },
+  {
+    "logo": "../images/what-we-do/app-dev-icon.png",
+    "title": "User experience & design",
+    "description": "We create beautiful, intuitive user interfaces that your customers will love to use."
+  },
+  {
+    "logo": "../images/what-we-do/app-dev-icon.png",
+    "title": "Mobile app development",
+    "description": "We build scalable, secure and robust web applications that are tailored to your needs."
+  },
+  {
+    "logo": "../images/what-we-do/app-dev-icon.png",
+    "title": "Blockchain solutions",
+    "description": "We offer a range of support and maintenance packages to keep your website running smoothly."
+  }
+]

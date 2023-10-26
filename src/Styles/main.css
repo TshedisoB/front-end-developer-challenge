@@ -1,7 +1,7 @@
 /*! header */
 .app-logo { 
   background-size: cover;
-  background-image: url("../../public/asserts//header-images/logo.png");
+  background-image: url("../../public/images/header-images/logo.png");
   width: 6rem;
   height: 1.5rem;
   margin: 0 auto;
@@ -56,19 +56,34 @@ li a {
 
 .hero-container{
   color: white;
-  padding: 14rem 14rem 10rem 5rem;
+  padding: 14rem 14rem 5rem 5rem;
   background-size: cover;
-  background-image: url("../../public/asserts//header-images/confidence.jpeg");
-  background-position: 10%;
+  background-image: url("../../public/images/header-images/confidence.jpeg");
+  background-position: 20%;
+}
+
+.hero-text h2{
+  font-size: 2.5rem;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.hero-text p{
+  font-size: 1.3rem; 
+  margin-top: 2rem;
+  width: 60%;
 }
 
 .cta-btn{
   color: white;
   background-color: #70259B;
-  margin-top: 6rem;
+  margin-top: 3rem;
   border: 1px solid black;
   padding: 0.75rem 1.3rem;
   border-radius: 5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight:bold
+
 }
 
 .navigation-container{
@@ -76,25 +91,31 @@ li a {
 }
 
 /*! what we do */
-.what-we-do-container{
+.what-we-do-container {
+  background-color: white;
   padding-left: 5rem;
 }
 
-/* main.css */
-
-.what-we-do-container {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border: 1px solid #ccc;
+.what-we-do-header {
+  margin-left: 0rem;
 }
 
-.what-we-do-header {
-  text-align: center;
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .section-header h2 {
   font-size: 24px;
   color: #333;
+}
+
+.rectangle{
+  background-color: #D100C9;
+  width: 3%;
+  height: 0.3rem;
+  margin-right: 0.5rem;
 }
 
 .what-we-do-content {
@@ -103,33 +124,36 @@ li a {
   margin-top: 20px;
 }
 
+.what-to-do-description{
+  margin-right: 5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
 .what-we-do-item {
   flex: 1;
   padding: 20px;
-  text-align: center;
   background-color: #fff;
-  border: 1px solid #ddd;
   border-radius: 5px;
 }
 
 .what-we-do-item-logo {
   width: 50px;
   height: 50px;
-  background-color: #0074d9; /* Example color for the logo background */
+  background-color: #0074d9;
   border-radius: 50%;
   margin: 0 auto 10px;
 }
 
 h3 {
   font-size: 18px;
-  color: #0074d9; /* Example color for the title */
+  color: #0074d9;
 }
 
-p {
-  font-size: 14px;
-  color: #555;
+.what-we-do-container p {
+  color: black;
 }
-
 
 
 
