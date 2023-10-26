@@ -4,16 +4,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import "../Styles/main.css";
+// import styles from "../Styles/main.css";
 import fixImageUrls from "../helper";
 
 const apiLink =
   "https://zm6zxgq6hyhe3smi5krzsrk2fu0iidhh.lambda-url.us-east-1.on.aws/";
 
 const sliderSettings = {
-  dots: false,
+  dots: true,
   infinite: true,
-  speed: 10,
+  speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
 };
@@ -38,7 +38,7 @@ function CaseStudies() {
 
   return (
     <div className="case-studies-container">
-      <h1 className="section-topic">Case Studies</h1>
+      <h3 className="section-topic">Case Studies</h3>
       <Slider {...sliderSettings}>
         {fixedData.map((item, index) => (
           <div key={index} className="slider-item">
