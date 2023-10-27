@@ -119,7 +119,8 @@ li a {
 }
 
 .what-we-do-content {
-  display: flex;
+  display: flex;    
+  margin-left: -1rem;
   justify-content: space-between;
   margin-top: 20px;
 }
@@ -130,18 +131,29 @@ li a {
   font-weight: bolder;
   font-size: 2.7rem;
 }
-
 .what-we-do-item {
   flex: 1;
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.what-we-do-item h3 {
+  min-height: 3.6rem; 
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.what-we-do-item p {
+  flex-grow: 1;
 }
 
 .what-we-do-item-logo {
   height: 50px;
   border-radius: 50%;
-  margin: 0 auto 10px;
+  margin: 0 0 2rem 0.5rem;
 }
 
 h3 {
@@ -154,27 +166,49 @@ h3 {
 }
 
 
-
-
-
-
-
 /*! case studies */
-.slider-item {
-  position: relative;
-  width: 40%;
-  text-align: center;
+.case-studies-container {
+  padding-left: 5rem;
+}
+ 
+.horizontal-images {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1.5rem 0 0;
 }
 
-.slider-content {
+.horizontal-image {
+  flex: 0 0 calc(33.33% - 10px);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.image-overlay {
+  position: relative;
+  max-width: 100%;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-details {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  color: #fff;
-  max-width: 80%;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: left;
+  color: white;
+}
+
+
+.image-details h2{
+  margin: 1rem 0 0 1rem;
 }
 
 .title {
@@ -182,19 +216,10 @@ h3 {
   margin: 0;
 }
 
-.description {
-  font-size: 16px;
-  margin: 0;
-}
+.description {    
+  font-size: 1.2rem;
+  margin: 1rem;
+  /* ues inter to make it lighter */
+  font-family: 'Inter', sans-serif;
 
-.section-topic{
-  text-align: center;
-  margin-bottom: 5rem;
-}
-
-.image {
-  max-width: 40%;
-  max-height: 90%;
-  display: block;
-  margin: 0 auto;
 }

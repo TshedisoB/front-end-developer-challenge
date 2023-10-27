@@ -1,22 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-// import styles from "../Styles/main.css";
 import fixImageUrls from "../helper";
 
 const apiLink =
   "https://zm6zxgq6hyhe3smi5krzsrk2fu0iidhh.lambda-url.us-east-1.on.aws/";
-
-const sliderSettings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-};
 
 function CaseStudies() {
   const [data, setData] = useState(null);
@@ -38,18 +27,21 @@ function CaseStudies() {
 
   return (
     <div className="case-studies-container">
-      <h3 className="section-topic">Case Studies</h3>
-      <Slider {...sliderSettings}>
+      <div className="section-header">
+        <div className="rectangle"></div>
+        <h2>Case Studies</h2>
+      </div>
+      <div className="horizontal-images">
         {fixedData.map((item, index) => (
-          <div key={index} className="slider-item">
+          <div key={index} className="horizontal-image">
             <img src={item.imageUrl} alt={item.title} className="image" />
-            <div className="slider-content">
+            <div className="image-details">
               <h2 className="title">{item.title}</h2>
               <p className="description">{item.description}</p>
             </div>
           </div>
         ))}
-      </Slider>
+      </div>
     </div>
   );
 }

@@ -2,8 +2,6 @@ import React from "react";
 import "../Styles/main.css";
 
 import data from "../whatWeDoData.json";
-//  parse data as a json
-// data = JSON.parse(data);
 
 export default function WhatWeDo() {
   return (
