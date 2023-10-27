@@ -1,46 +1,47 @@
 # Front End Developer Challenge
 
-[![Project Showcase Demo](public/images/thumbnails/demo.png)](https://projects-5584f.web.app/)
+![Project Showcase Demo](public/images/demo.png)]
 
-## Overview
+## Installation Guide
 
-This project is a web application that showcases some of Tshediso's collection of projects. It provides a visually appealing and user-friendly interface to explore and learn about each project. Through this showcase, users can access project videos, images, and detailed information about the project objectives.
+**Prerequisites:**
 
-## How to Use
+1. Ensure that you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from [https://nodejs.org/](https://nodejs.org/).
 
-1. Visit the project's live demo at [link-to-live-website](https://projects-5584f.web.app/).
-2. Upon loading the page, you will see a collection of projects with their respective images and logos.
-3. Click on an image to open a pop-up displaying either a video for that project.
-4. To learn more about a project, click on the "Info" button to open another pop-up with detailed project objectives.
-5. To close any open pop-up, simply click the "Close" button within the pop-up or press the "Escape" key.
+**Installation Steps:**
 
-## Features
+1. Clone the repository to your local machine using Git:
 
-- Interactive and visually appealing design.
-- Display of project images with corresponding logos.
-- Play project videos in a built-in player.
-- Detailed information about each project's objectives.
-- Easy navigation with close functionality for project information pop-ups.
-- Responsive layout for seamless viewing on various devices.
+   ```shell
+   git clone <repository-url>
+2. Open the cloned repository using command: 
+   ```shell
+   cd <repository-url>
+3. Install necessary packages required to start project, use command: 
+   ```shell
+   npm install
+4. Start the project by running: 
+   ```shell
+   npm start
+## Requirements
+The following requirements were set for this project:
+1. Code a single page that matches the figma design provided using React.
 
 ## Technologies Used
 
 - **React:** A popular JavaScript library for building user interfaces.
-- **FontAwesome:** For including icons in the project.
-- **ReactPlayer:** To embed and play project videos.
+- **Inter:** For styling fonts in the project.
 - **CSS:** Custom styling for the overall appearance.
 
-
 ## Project Structure
+The project consists of 5 main components:
 
-The project consists of two main components:
+1. **NavBar:**  Renders a navigation bar with a logo, navigation links, and a call-to-action button. It is styled using CSS classes and contains external links that open in a new tab.
 
-1. **App Component:** This component serves as the main entry point for the project. It handles the state for opening and closing pop-ups, and it maps through the project data to display project cards.
+2. **WhatWeDo:** Displays a section with a title and description about the services offered. It dynamically renders a list of items using data from a JSON file (imported as `data`) to showcase service titles, descriptions, and associated logos. The items are mapped and displayed with their respective content. 
 
-2. **ProjectInfo Component:** This component is responsible for displaying detailed project information in a modal or pop-up. It receives the project title and objectives as props and provides a "Close" button to close the modal.
- 
-## Contact
+3. **TrustedBrands:** Displays a section featuring a title and statement, "Trusted by leading Brands," and showcases a list of brand logos. The logos are loaded from a JSON file named `brands` and dynamically rendered.
 
-For any inquiries or questions, feel free to reach out to Tshediso at [tshedisoboshiana@gmail.com](mailto:tshedisoboshiana@gmail.com).
+4. **CaseStudies:** fetches data from an API link, fixes image URLs using a helper function, and displays a section titled "Case Studies." It dynamically renders a list of case study items, each consisting of an image, title, and description. The images are loaded from the API response, and the data is displayed within the "horizontal-images" section. If no data is available, it returns `null`.
 
-Happy exploring! 🚀
+5. **FooterInfo:** It represents the footer section of a web page. It includes contact information, service links (such as Terms of Service and Privacy Policy), social media links, work-related links, creative links, and a section for exploring open jobs.

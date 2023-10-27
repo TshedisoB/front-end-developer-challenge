@@ -1,4 +1,5 @@
 import React from "react";
+
 import brands from "../data/brands.json";
 import "../styles/main.css";
 

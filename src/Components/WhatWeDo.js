@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/main.css";
 
+import "../styles/main.css";
 import data from "../data/whatWeDoData.json";
 
 export default function WhatWeDo() {
