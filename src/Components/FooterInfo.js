@@ -12,13 +12,22 @@ export default function FooterInfo() {
 
       <div className="contact-section">
         <div className="footer-question">
-          <p>Have a project in mind? Let's make it happen</p>
+          <p>Have a project in mind?</p>
+          <p>Let's make it happen</p>
         </div>
         <div className="footer-address">
           <p>22 Street Name, Suburb, 8000,</p>
           <p>Cape Town, South Africa</p>
           <p>+27 21 431 0001</p>
-          <p>enquiry@website.co.za</p>
+          <p id="footer-mail">
+            <a
+              href="mailto:
+            enquiries@website.co.za"
+              target="_blank"
+              rel="noopener noreferrer">
+              enquires@website.com
+            </a>
+          </p>
         </div>
       </div>
 
