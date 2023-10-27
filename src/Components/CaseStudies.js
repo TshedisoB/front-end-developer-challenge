@@ -36,6 +36,7 @@ function CaseStudies() {
           <div key={index} className="horizontal-image">
             <img src={item.imageUrl} alt={item.title} className="image" />
             <div className="image-details">
+              <div className="rectangle-case-study"></div>
               <h2 className="title">{item.title}</h2>
               <p className="description">{item.description}</p>
             </div>
@@ -45,5 +46,4 @@ function CaseStudies() {
     </div>
   );
 }
-
 export default CaseStudies;

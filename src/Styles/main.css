@@ -103,11 +103,11 @@ li a {
 .section-header {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 3rem 0 3rem 0;
 }
 
 .section-header h2 {
-  font-size: 24px;
+  font-size: 1.2rem;
   color: #333;
 }
 
@@ -151,7 +151,7 @@ li a {
 }
 
 .what-we-do-item-logo {
-  height: 50px;
+  height: 3rem;
   border-radius: 50%;
   margin: 0 0 2rem 0.5rem;
 }
@@ -217,9 +217,13 @@ h3 {
 }
 
 .description {    
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 1rem;
-  /* ues inter to make it lighter */
-  font-family: 'Inter', sans-serif;
+}
 
+.rectangle-case-study{
+  background-color: #D100C9;
+  width: 8%;
+  height: 0.3rem;
+  margin-left: 1rem;
 }
