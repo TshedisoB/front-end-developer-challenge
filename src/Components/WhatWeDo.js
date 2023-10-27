@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/main.css";
 
-import data from "../whatWeDoData.json";
+import data from "../data/whatWeDoData.json";
 
 export default function WhatWeDo() {
   return (

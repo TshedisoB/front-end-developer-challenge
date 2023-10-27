@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import fixImageUrls from "../helper";
 
 const apiLink =
   "https://zm6zxgq6hyhe3smi5krzsrk2fu0iidhh.lambda-url.us-east-1.on.aws/";
 
-function CaseStudies() {
+export default function CaseStudies() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -46,4 +47,3 @@ function CaseStudies() {
     </div>
   );
 }
-export default CaseStudies;

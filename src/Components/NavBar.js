@@ -2,7 +2,7 @@ import React from "react";
 
 import "../Styles/main.css";
 
-export const NavBar = () => {
+export default function NavBar() {
   return (
     <div className="navigation-container">
       <div className="header-container">
@@ -56,6 +56,4 @@ export const NavBar = () => {
       </div>
     </div>
   );
-};
-
-export default NavBar;
+}
