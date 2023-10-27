@@ -1,8 +1,9 @@
-import "../src/Styles/main.css";
+import "../src/styles/main.css";
 import NavBar from "./Components/NavBar";
 import WhatWeDo from "./Components/WhatWeDo";
 import CaseStudies from "./Components/CaseStudies";
 import TrustedBrands from "./Components/TrustedBrands";
+import FooterInfo from "./Components/FooterInfo";
 
 export function App() {
   return (
@@ -11,6 +12,7 @@ export function App() {
       <WhatWeDo />
       <CaseStudies />
       <TrustedBrands />
+      <FooterInfo />
     </div>
   );
 }

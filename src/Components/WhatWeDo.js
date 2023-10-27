@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/main.css";
+import "../styles/main.css";
 
 import data from "../data/whatWeDoData.json";
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 import brands from "../data/brands.json";
-import "../Styles/main.css";
+import "../styles/main.css";
 
 export default function TrustedBrands() {
   return (
