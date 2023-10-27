@@ -1,5 +1,4 @@
 import React from "react";
-
 import brands from "../data/brands.json";
 import "../styles/main.css";
 
@@ -16,7 +15,12 @@ export default function TrustedBrands() {
       <div className="logos-container">
         {brands.map((imageUrl, index) => (
           <div key={index} className="brand-item">
-            <img src={imageUrl.location} alt={`Brand${index + 1}`} />
+            <img
+              src={imageUrl.location}
+              alt={`Brand${index + 1}`}
+              className="brand-logo"
+              style={{ width: "220px", height: "220px" }}
+            />
           </div>
         ))}
       </div>
