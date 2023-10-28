@@ -167,13 +167,14 @@ h3 {
 /*! case studies */
 .case-studies-container {
   padding-left: 5rem;
+  padding-right: 2rem;
   margin-bottom: 3rem;
 }
 
 .horizontal-images-container {
-  /* flex: 0 0 calc(33.33% - 5px); */
   display: flex;
   justify-content: space-between;
+  padding-right: 2rem;
 }
 
 .horizontal-image {
@@ -188,7 +189,7 @@ h3 {
 }
 
 .image {
-  max-width: 100%;
+  max-width: 90%;
   height: 23rem;
   object-fit: cover; 
   overflow: hidden;
@@ -226,6 +227,10 @@ h3 {
   width: 8%;
   height: 0.3rem;
   margin-left: 1rem;
+}
+
+.slick-slide {
+  margin: 0rem;
 }
 
 /*! trusted brands */
