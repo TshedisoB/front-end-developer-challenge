@@ -20,7 +20,7 @@ export default function CaseStudies() {
       });
   }, []);
 
-  if (!data) return null;
+  if (!data) return <div>Loading images...</div>;
 
   let fixedData = fixImageUrls(data);
 
@@ -30,7 +30,7 @@ export default function CaseStudies() {
         <div className="rectangle"></div>
         <h2>Case Studies</h2>
       </div>
-      <div className="horizontal-images">
+      <div className="horizontal-images-container">
         {fixedData.map((item, index) => (
           <div key={index} className="horizontal-image">
             <img src={item.imageUrl} alt={item.title} className="image" />
