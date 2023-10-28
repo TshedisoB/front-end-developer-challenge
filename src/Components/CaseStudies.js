@@ -29,7 +29,7 @@ export default function CaseStudies() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 3500,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
