@@ -42,6 +42,6 @@ The project consists of 5 main components:
 
 3. **TrustedBrands:** Displays a section featuring a title and statement, "Trusted by leading Brands," and showcases a list of brand logos. The logos are loaded from a JSON file named `brands` and dynamically rendered.
 
-4. **CaseStudies:** fetches data from an API link, fixes image URLs using a helper function, and displays a section titled "Case Studies." It dynamically renders a list of case study items, each consisting of an image, title, and description. The images are loaded from the API response, and the data is displayed within the "horizontal-images" section. If no data is available, it returns `Loading images...`.
+4. **CaseStudies:** fetches data from an API link using `axios`, then fixes image URLs using a helper function, and displays a section titled "Case Studies." It dynamically renders a list of case study items, each consisting of an image, title, and description. The images are loaded from the API response, and the data is displayed within the "horizontal-images" section. If no data is available, it returns `Loading images...`.
 
 5. **FooterInfo:** It represents the footer section of a web page. It includes contact information, service links (such as Terms of Service and Privacy Policy), social media links, work-related links, creative links, and a section for exploring open jobs.

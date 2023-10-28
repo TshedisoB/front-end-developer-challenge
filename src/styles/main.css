@@ -93,6 +93,15 @@ li a {
 .what-we-do-container {
   background-color: white;
   padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+.what-we-do-container p{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
 }
 
 .what-we-do-header {
@@ -147,6 +156,11 @@ li a {
 
 .what-we-do-item p {
   flex-grow: 1;
+  font-family: 'Inter',sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .what-we-do-item-logo {
@@ -160,9 +174,6 @@ h3 {
   margin: 3.9rem 0 2.9rem 0;
 }
 
-.what-we-do-container p {
-  color: #242424;
-}
 
 /*! case studies */
 .case-studies-container {

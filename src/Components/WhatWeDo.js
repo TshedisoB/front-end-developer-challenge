@@ -11,7 +11,7 @@ export default function WhatWeDo() {
           <div className="rectangle"></div>
           <h2>What we do</h2>
         </div>
-        <p className="what-to-do-description">
+        <p className="what-we-do-description">
           We offer a complete range of bespoke design and development services
           to help you turn your ideas into digital masterpieces.
         </p>
