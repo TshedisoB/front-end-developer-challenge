@@ -114,6 +114,97 @@ li a {
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem;
+  }
+
+  .nav-links {
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  .nav-links li {
+    margin: 0.5rem;
+  }
+
+  .primary-btn {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    margin-right: 0;
+  }
+
+  .hero-container {
+    padding: 8rem 1rem 3rem 1rem;
+  }
+
+  .hero-text p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-container {
+    padding: 0.3rem;
+  }
+
+  .nav-links {
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  .nav-links li {
+    margin: 0.3rem;
+  }
+
+  .primary-btn {
+    margin: 0.7rem 0;
+    padding: 0.4rem 0.8rem;
+    margin-right: 0;
+  }
+
+  .hero-container {
+    padding: 5rem 0.5rem 2rem 0.5rem;
+  }
+
+  .hero-text p {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-container {
+    padding: 0.5rem;
+  }
+
+  .nav-links {
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  .nav-links li {
+    margin: 0.5rem;
+  }
+
+  .primary-btn {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    margin-right: 0;
+  }
+
+  .hero-container {
+    padding: 6rem 0.5rem 3rem 0.5rem;
+  }
+
+  .hero-text p {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
 /*! what we do */
 .what-we-do-container {
   background-color: white;

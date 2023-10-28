@@ -4,6 +4,10 @@
   :root { font-family: 'Inter var', sans-serif; }
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-size: 0.9rem;

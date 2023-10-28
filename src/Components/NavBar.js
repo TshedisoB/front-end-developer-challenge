@@ -3,6 +3,10 @@ import React from "react";
 import "../styles/main.css";
 
 export default function NavBar() {
+  const handleViewProject = () => {
+    window.open("https://projects-5584f.web.app/", "_blank");
+  };
+
   return (
     <div className="navigation-container">
       <div className="header-container">
@@ -51,7 +55,9 @@ export default function NavBar() {
         <div className="hero-text">
           <h2>Live with Confidence</h2>
           <p>José Mourinho brings confidence to pan-African Sanlam campaign.</p>
-          <button className="cta-btn">View project</button>
+          <button className="cta-btn" onClick={handleViewProject}>
+            View project
+          </button>
         </div>
       </div>
     </div>
