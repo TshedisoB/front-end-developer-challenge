@@ -149,6 +149,7 @@ li a {
 }
 
 .what-we-do-item h3 {
+  font-size: 1.39rem;
   min-height: 3.6rem; 
   margin: 1rem 0;
   padding: 0;
@@ -229,7 +230,8 @@ h3 {
 }
 
 .description {    
-  font-size: 1rem;
+  font-size: 0.95rem;
+  padding-right: 1rem;
   margin: 1rem;
 }
 
