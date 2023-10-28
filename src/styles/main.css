@@ -82,7 +82,6 @@ li a {
   border-radius: 5rem;
   font-family: 'Inter', sans-serif;
   font-weight:bold
-
 }
 
 .navigation-container{
@@ -113,7 +112,14 @@ li a {
   background-color: #D100C9;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
 }
-
+@media (max-width: 330px) {
+    .primary-btn {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    margin-right: 0;
+    width: 100%; 
+  }
+}
 @media (max-width: 768px) {
   .header-container {
     display: flex;
@@ -146,6 +152,12 @@ li a {
 }
 
 @media (max-width: 475px) {
+  .header-container{
+    display: flex;
+    align-items: center;
+    padding-left: 3.5rem;
+  }
+  
   .nav-links {
     padding: 0;
     justify-content: space-around;
@@ -158,10 +170,20 @@ li a {
   }
 
   .primary-btn {
-    margin: 1rem 0;
+    margin: -1rem;
     padding: 0.5rem 1rem;
     margin-right: 0;
     width: 100%; 
+  }
+
+  .app-logo{
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .app-logo{
+    margin-left: 0rem;
   }
 }
 
