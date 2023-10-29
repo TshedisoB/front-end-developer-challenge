@@ -450,6 +450,7 @@ h3 {
   justify-content: center;
   max-width: 20%;
   max-height: 40%;
+  margin-bottom: -2.1rem;
 }
 
 .brand-item img {
@@ -469,10 +470,50 @@ h3 {
   height: 17rem; 
 }
 
+.logos-container > div:nth-child(12) > img {
+  max-height: 7rem;
+  font-size: 20px;
+}
+
+@media (max-width: 870px) {
+  .brands-container {
+    padding-left: 2rem; 
+    margin-bottom: 2rem;
+  }
+
+  .brands-statement {
+    font-size: 1.8rem;
+  }
+
+  .logos-container {
+    justify-content: center;
+  }
+
+  .logos-container img {
+    max-width: 80%;
+  }
+
+  .brand-item {
+    max-width: 45%;
+    max-height: auto;
+  }
+
+  .brand-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .brand-logo {
+    width: 100px;
+    height: 100px; 
+  }
+}
+
 /*! footer */
 .footer-container{
   background-color: #430964;
   padding: 0 0 3rem 5rem;
+  margin-top: 5rem;
 }
 
 .footer-section-header{
