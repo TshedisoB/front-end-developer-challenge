@@ -546,3 +546,52 @@ h3 {
   color: white;
 }
 
+@media screen and (max-width: 767px) {
+  .footer-container {
+    padding: 3rem 1rem;
+  }
+
+  .footer-section-header h2 {
+    margin: 1rem 0; 
+  }
+
+  .footer-question {
+    font-size: 1.5rem;
+  }
+
+  .contact-section {
+    padding: 0 1rem;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-bottom: 2rem;
+  }
+
+  .footer-address {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: medium;
+  }
+
+  .links-section {
+    padding: 0 1rem; 
+  }
+
+  .service-links,
+  .social-media-links,
+  .work-related-links,
+  .creative-links,
+  .explore-jobs,
+  .copyright {
+    flex: 0 0 100%; 
+    margin-bottom: 1rem; 
+  }
+
+  .service-links a,
+  .social-media-links a,
+  .work-related-links a,
+  .creative-links a,
+  .explore-jobs a,
+  .copyright p {
+    margin: 3px 0; 
+  }
+}
