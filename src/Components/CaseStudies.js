@@ -36,7 +36,7 @@ export default function CaseStudies() {
     autoplaySpeed: 3000,
     responsive: [
       {
-        breakpoint: 500,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
         },
