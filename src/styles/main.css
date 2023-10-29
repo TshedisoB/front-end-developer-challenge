@@ -450,7 +450,7 @@ h3 {
   justify-content: center;
   max-width: 20%;
   max-height: 40%;
-  margin-bottom: -2.1rem;
+  margin-bottom: -5.1rem;
 }
 
 .brand-item img {
@@ -513,7 +513,7 @@ h3 {
 .footer-container{
   background-color: #430964;
   padding: 0 0 3rem 5rem;
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 .footer-section-header{
@@ -553,13 +553,21 @@ h3 {
   margin-right: 5.1rem 
 }
 
+.copyright {
+  margin-bottom: -1rem;
+}
+
+.explore-container {
+  display: grid;
+  grid-template-columns: 2
+}
+
 .links-section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-right: 12rem;
   font-size: larger;
-
 }
 
 .service-links,

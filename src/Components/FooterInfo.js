@@ -56,7 +56,7 @@ export default function FooterInfo() {
           <a href="https://www.dribbble.com">Dribbble</a>
         </div>
 
-        <div>
+        <div className="explore-container">
           <div className="explore-jobs">
             <a href="/open-jobs">Explore Open Jobs</a>
           </div>
