@@ -160,6 +160,7 @@ li a {
   
   .nav-links {
     padding: 0;
+    margin-top: 2rem;
     justify-content: space-around;
     flex-wrap: wrap;
   }
@@ -177,13 +178,18 @@ li a {
   }
 
   .app-logo{
-    margin-left: 0rem;
+    margin-left: 0rem;    
+    position: absolute;
+    top: 1%;
+    right: 40%;
   }
 }
 
 @media (max-width: 330px) {
   .app-logo{
-    margin-left: 0rem;
+    position: absolute;
+    top: 1%;
+    right: 40%;
   }
 }
 
